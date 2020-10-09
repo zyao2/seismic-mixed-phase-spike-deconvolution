@@ -17,7 +17,7 @@ for L=1:lmax
     if(error>=estar)
         continue;
     end
-    lag=lag+1;
+    lag=L+1;
     estar=error;
 end
 if(lag>1)
